@@ -6,7 +6,8 @@ import './App.css';
 // import Hello from './components/Hello';
 // import GreetProps from './components/GreetProps';
 // import WelcomeProps from './components/WelcomeProps'
-import Message from './components/Message';
+// import Message from './components/Message';
+import Counter from './components/Counter';
 
 function App() {
   return (
@@ -29,7 +30,9 @@ function App() {
       <WelcomeProps name={"Clark"} heroName={"Superman"} />
       <WelcomeProps name={"Diana"} heroName={"Wonder woman"} /> */}
 
-      <Message />
+      {/* <Message /> */}
+
+      <Counter />
     </div>
   );
 }
