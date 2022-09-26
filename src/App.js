@@ -7,7 +7,9 @@ import './App.css';
 // import GreetProps from './components/GreetProps';
 // import WelcomeProps from './components/WelcomeProps'
 // import Message from './components/Message';
-import Counter from './components/Counter';
+// import Counter from './components/Counter';
+import GreetPropsDestructuring from './components/GreetPropsDestructuring';
+import WelcomePropsDestructuring from './components/WelcomePropsDestructuring';
 
 function App() {
   return (
@@ -32,7 +34,11 @@ function App() {
 
       {/* <Message /> */}
 
-      <Counter />
+      {/* <Counter /> */}
+
+      <GreetPropsDestructuring name={"Bruce"} heroName={"Batman"}/>
+      <WelcomePropsDestructuring name={"Clark"} heroName={"Superman"} />
+
     </div>
   );
 }

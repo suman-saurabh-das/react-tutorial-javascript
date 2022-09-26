@@ -5,7 +5,7 @@ In case of class components, we do not need to pass the props as an argument to 
 It is readily available using the this keyword and we can access them as this.props
 */
 
-class Welcome extends Component {
+class WelcomeProps extends Component {
     render() {
         return (
             <>
@@ -16,4 +16,4 @@ class Welcome extends Component {
     }
 }
 
-export default Welcome;
+export default WelcomeProps;
