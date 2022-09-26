@@ -1,7 +1,7 @@
 import React from "react";
 
 /*
-We can use props to have unique data fro the same component thus making it a reusable component
+We can use props to have unique data for the same component thus making it a reusable component
 For using props, we need to pass them from the parent element and we can use it as a parameter in the function
 NOTE - All props are bundled together as an object
 NOTE - Props are immutable (i.e. their value cannot be changed)
