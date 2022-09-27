@@ -1,15 +1,15 @@
 import './App.css';
 
-// import Greet from './components/Greet';    // default export
-// import {Greet} from './components/Greet';  // named export
-// import Welcome from './components/Welcome';
-// import Hello from './components/Hello';
-// import GreetProps from './components/GreetProps';
-// import WelcomeProps from './components/WelcomeProps'
-// import Message from './components/Message';
-// import Counter from './components/Counter';
-import GreetPropsDestructuring from './components/GreetPropsDestructuring';
-import WelcomePropsDestructuring from './components/WelcomePropsDestructuring';
+// import Greet from './components/section1/Greet';    // default export
+// import {Greet} from './components/section1/Greet';  // named export
+// import Welcome from './components/section1/Welcome';
+// import Hello from './components/section1/Hello';
+// import GreetProps from './components/section1/GreetProps';
+// import WelcomeProps from './components/section1/WelcomeProps'
+// import Message from './components/section1/Message';
+// import Counter from './components/section2/Counter';
+import GreetPropsDestructuring from './components/section2/GreetPropsDestructuring';
+import WelcomePropsDestructuring from './components/section2/WelcomePropsDestructuring';
 
 function App() {
   return (
@@ -38,7 +38,6 @@ function App() {
 
       <GreetPropsDestructuring name={"Bruce"} heroName={"Batman"}/>
       <WelcomePropsDestructuring name={"Clark"} heroName={"Superman"} />
-
     </div>
   );
 }
