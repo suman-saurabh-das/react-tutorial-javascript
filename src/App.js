@@ -8,8 +8,10 @@ import './App.css';
 // import WelcomeProps from './components/section1/WelcomeProps'
 // import Message from './components/section1/Message';
 // import Counter from './components/section2/Counter';
-import GreetPropsDestructuring from './components/section2/GreetPropsDestructuring';
-import WelcomePropsDestructuring from './components/section2/WelcomePropsDestructuring';
+// import GreetPropsDestructuring from './components/section2/GreetPropsDestructuring';
+// import WelcomePropsDestructuring from './components/section2/WelcomePropsDestructuring';
+import FunctionClick from './components/section2/FunctionClick';
+import ClassClick from './components/section2/ClassClick';
 
 function App() {
   return (
@@ -36,8 +38,11 @@ function App() {
 
       {/* <Counter /> */}
 
-      <GreetPropsDestructuring name={"Bruce"} heroName={"Batman"}/>
-      <WelcomePropsDestructuring name={"Clark"} heroName={"Superman"} />
+      {/* <GreetPropsDestructuring name={"Bruce"} heroName={"Batman"}/> */}
+      {/* <WelcomePropsDestructuring name={"Clark"} heroName={"Superman"} /> */}
+
+      <FunctionClick />
+      <ClassClick />
     </div>
   );
 }
