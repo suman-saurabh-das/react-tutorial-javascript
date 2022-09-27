@@ -6,8 +6,6 @@ import React, { Component } from 'react'
     NOTE - When we define a function inside the class, we do not use the function keyword
 */
 
-
-
 export class ClassClick extends Component {
     clickHandler () {
         console.log("Clicked the button");

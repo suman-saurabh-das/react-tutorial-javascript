@@ -10,8 +10,9 @@ import './App.css';
 // import Counter from './components/section2/Counter';
 // import GreetPropsDestructuring from './components/section2/GreetPropsDestructuring';
 // import WelcomePropsDestructuring from './components/section2/WelcomePropsDestructuring';
-import FunctionClick from './components/section2/FunctionClick';
-import ClassClick from './components/section2/ClassClick';
+// import FunctionClick from './components/section2/FunctionClick';
+// import ClassClick from './components/section2/ClassClick';
+import EventBind from './components/section2/EventBind';
 
 function App() {
   return (
@@ -41,8 +42,10 @@ function App() {
       {/* <GreetPropsDestructuring name={"Bruce"} heroName={"Batman"}/> */}
       {/* <WelcomePropsDestructuring name={"Clark"} heroName={"Superman"} /> */}
 
-      <FunctionClick />
-      <ClassClick />
+      {/* <FunctionClick /> */}
+      {/* <ClassClick /> */}
+
+      <EventBind />
     </div>
   );
 }
