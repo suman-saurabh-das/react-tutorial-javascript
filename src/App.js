@@ -14,7 +14,8 @@ import './App.css';
 // import ClassClick from './components/section2/ClassClick';
 // import EventBind from './components/section2/EventBind';
 // import ParentComponent from './components/section2/ParentComponent';
-import UserGreeting from './components/section2/UserGreeting';
+// import UserGreeting from './components/section2/UserGreeting';
+import NameList from './components/section2/NameList';
 
 function App() {
   return (
@@ -51,7 +52,9 @@ function App() {
 
       {/* <ParentComponent /> */}
 
-      <UserGreeting />
+      {/* <UserGreeting /> */}
+
+     <NameList /> 
     </div>
   );
 }
