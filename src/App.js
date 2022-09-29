@@ -12,7 +12,8 @@ import './App.css';
 // import WelcomePropsDestructuring from './components/section2/WelcomePropsDestructuring';
 // import FunctionClick from './components/section2/FunctionClick';
 // import ClassClick from './components/section2/ClassClick';
-import EventBind from './components/section2/EventBind';
+// import EventBind from './components/section2/EventBind';
+import ParentComponent from './components/section2/ParentComponent';
 
 function App() {
   return (
@@ -45,7 +46,9 @@ function App() {
       {/* <FunctionClick /> */}
       {/* <ClassClick /> */}
 
-      <EventBind />
+      {/* <EventBind /> */}
+
+      <ParentComponent />
     </div>
   );
 }

@@ -65,7 +65,7 @@ class EventBind extends Component {
                 {/* Method 2 - Using arrow function in the render method, here we are using arrow function to run the clickHandler() method (calling the eventHandler method and returning the value), so we are using () and we can omit {} after => as there is a single return statement*/}
                 {/* <button onClick={() => {this.clickHandler()}}>Click Me</button> */}
 
-                {/* Method 3 - Binding event handler in costructor instead of render method */}
+                {/* Method 3 - Binding event handler in constructor instead of render method */}
                 {/* <button onClick={this.clickHandler}>Click Me</button> */}
 
                 {/* Method 4 - Using arrow function as a class property */}
