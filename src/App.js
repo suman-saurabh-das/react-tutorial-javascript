@@ -13,7 +13,8 @@ import './App.css';
 // import FunctionClick from './components/section2/FunctionClick';
 // import ClassClick from './components/section2/ClassClick';
 // import EventBind from './components/section2/EventBind';
-import ParentComponent from './components/section2/ParentComponent';
+// import ParentComponent from './components/section2/ParentComponent';
+import UserGreeting from './components/section2/UserGreeting';
 
 function App() {
   return (
@@ -48,7 +49,9 @@ function App() {
 
       {/* <EventBind /> */}
 
-      <ParentComponent />
+      {/* <ParentComponent /> */}
+
+      <UserGreeting />
     </div>
   );
 }
