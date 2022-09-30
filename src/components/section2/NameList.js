@@ -1,5 +1,5 @@
 import React from 'react'
-import Person from './Person'
+// import Person from './Person'
 /*
     Rendering a simple array of items
     Rendering an array of object with multiple properties
@@ -12,12 +12,24 @@ import Person from './Person'
 
     Importance of key -
     Keys help react identify which items in the list have changed, added or removed and plays a crucial role in handling UI updates efficiently.
+
+List (array) Index as key
+We can pass a second parameter to the map method after the elementValue, which will be the index of the element
+We can now use this index as a key as it will always be an unique value.
+
+But using index can cause serious issues in UI
+This example demonstrates the issue -> https://codepen.io/gopinav/pen/gQpepq
+
+When to use Index as a key
+1. The items in your list do not have an unique id.
+2. The list is a static list and will not change.
+3. The list will never be reordered or filtered.
 */
 
 function NameList() {
-    /*
-    const names = ["Bruce", "Clark", "Diana"]
-    const nameListRender = names.map(name => <h2>{name}</h2>);
+    
+    const names = ["Bruce", "Clark", "Diana", "Bruce"]
+    const nameListRender = names.map((name, index) => <h2 key={index}>{index} {name}</h2>);
     return (
         <>
             {
@@ -36,8 +48,8 @@ function NameList() {
             }
         </>
     )
-    */
    
+    /*
     const persons = [
         {
             id: 1,
@@ -64,6 +76,7 @@ function NameList() {
             {personList}
         </>
     )
+    */
 }
 
 export default NameList
