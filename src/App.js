@@ -20,7 +20,8 @@ import './App.css';
 // import Inline from './components/section2/Inline';
 // import './appStyles.css'
 // import styles from './appStyles.module.css'
-import Form from './components/section3/Form';
+// import Form from './components/section3/Form';
+import LifecycleA from './components/section3/LifecycleA';
 
 function App() {
   return (
@@ -66,7 +67,9 @@ function App() {
      {/* <h1 className='error'>Error Message</h1>
      <h1 className={styles.success}>Yay ! Success</h1> */}
 
-     <Form />
+     {/* <Form /> */}
+
+     <LifecycleA />
     </div>
   );
 }
