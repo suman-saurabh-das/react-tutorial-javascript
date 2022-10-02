@@ -16,10 +16,11 @@ import './App.css';
 // import ParentComponent from './components/section2/ParentComponent';
 // import UserGreeting from './components/section2/UserGreeting';
 // import NameList from './components/section2/NameList';
-import Stylesheet from './components/section2/Stylesheet';
-import Inline from './components/section2/Inline';
-import './appStyles.css'
-import styles from './appStyles.module.css'
+// import Stylesheet from './components/section2/Stylesheet';
+// import Inline from './components/section2/Inline';
+// import './appStyles.css'
+// import styles from './appStyles.module.css'
+import Form from './components/section3/Form';
 
 function App() {
   return (
@@ -60,10 +61,12 @@ function App() {
 
      {/* <NameList />  */}
 
-     <Stylesheet primary={true} />
-     <Inline />
-     <h1 className='error'>Error Message</h1>
-     <h1 className={styles.success}>Yay ! Success</h1>
+     {/* <Stylesheet primary={true} /> */}
+     {/* <Inline /> */}
+     {/* <h1 className='error'>Error Message</h1>
+     <h1 className={styles.success}>Yay ! Success</h1> */}
+
+     <Form />
     </div>
   );
 }
