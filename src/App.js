@@ -22,7 +22,9 @@ import './App.css';
 // import styles from './appStyles.module.css'
 // import Form from './components/section3/Form';
 // import LifecycleA from './components/section3/LifecycleA';
-import LifecycleC from './components/section3/LifecycleC';
+// import LifecycleC from './components/section3/LifecycleC';
+import Fragment from './components/section3/Fragment';
+import Table from './components/section3/Table';
 
 function App() {
   return (
@@ -72,7 +74,10 @@ function App() {
 
      {/* <LifecycleA /> */}
 
-     <LifecycleC />
+     {/* <LifecycleC /> */}
+
+     <Fragment />
+     <Table />
     </div>
   );
 }
