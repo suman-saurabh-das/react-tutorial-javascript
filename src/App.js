@@ -23,8 +23,9 @@ import './App.css';
 // import Form from './components/section3/Form';
 // import LifecycleA from './components/section3/LifecycleA';
 // import LifecycleC from './components/section3/LifecycleC';
-import Fragment from './components/section3/Fragment';
-import Table from './components/section3/Table';
+// import Fragment from './components/section3/Fragment';
+// import Table from './components/section3/Table';
+import ParentComp from './components/section3/ParentComp';
 
 function App() {
   return (
@@ -76,8 +77,10 @@ function App() {
 
      {/* <LifecycleC /> */}
 
-     <Fragment />
-     <Table />
+     {/* <Fragment /> */}
+     {/* <Table /> */}
+
+     <ParentComp />
     </div>
   );
 }
