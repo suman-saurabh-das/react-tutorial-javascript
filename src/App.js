@@ -28,7 +28,8 @@ import './App.css';
 // import ParentComp from './components/section3/ParentComp';
 // import RefDemo1 from './components/section3/RefDemo1';
 // import RefDemo2 from './components/section3/RefDemo2';
-import FocusInput from './components/section3/FocusInput';
+// import FocusInput from './components/section3/FocusInput';
+import ForwardRefInputParent from './components/section3/ForwardRefInputParent';
 
 function App() {
   return (
@@ -88,7 +89,9 @@ function App() {
      {/* <RefDemo1 /> */}
      {/* <RefDemo2 /> */}
 
-     <FocusInput />
+     {/* <FocusInput /> */}
+
+     <ForwardRefInputParent />
     </div>
   );
 }
