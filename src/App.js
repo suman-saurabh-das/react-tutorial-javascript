@@ -29,7 +29,8 @@ import './App.css';
 // import RefDemo1 from './components/section3/RefDemo1';
 // import RefDemo2 from './components/section3/RefDemo2';
 // import FocusInput from './components/section3/FocusInput';
-import ForwardRefInputParent from './components/section3/ForwardRefInputParent';
+// import ForwardRefInputParent from './components/section3/ForwardRefInputParent';
+import PortalDemo from './components/section4/PortalDemo';
 
 function App() {
   return (
@@ -91,7 +92,9 @@ function App() {
 
      {/* <FocusInput /> */}
 
-     <ForwardRefInputParent />
+     {/* <ForwardRefInputParent /> */}
+
+     <PortalDemo />
     </div>
   );
 }
