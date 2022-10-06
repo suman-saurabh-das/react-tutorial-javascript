@@ -26,8 +26,9 @@ import './App.css';
 // import Fragment from './components/section3/Fragment';
 // import Table from './components/section3/Table';
 // import ParentComp from './components/section3/ParentComp';
-import RefDemo1 from './components/section3/RefDemo1';
-import RefDemo2 from './components/section3/RefDemo2';
+// import RefDemo1 from './components/section3/RefDemo1';
+// import RefDemo2 from './components/section3/RefDemo2';
+import FocusInput from './components/section3/FocusInput';
 
 function App() {
   return (
@@ -84,8 +85,10 @@ function App() {
 
      {/* <ParentComp /> */}
 
-     <RefDemo1 />
-     <RefDemo2 />
+     {/* <RefDemo1 /> */}
+     {/* <RefDemo2 /> */}
+
+     <FocusInput />
     </div>
   );
 }
