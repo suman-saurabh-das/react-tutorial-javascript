@@ -25,7 +25,9 @@ import './App.css';
 // import LifecycleC from './components/section3/LifecycleC';
 // import Fragment from './components/section3/Fragment';
 // import Table from './components/section3/Table';
-import ParentComp from './components/section3/ParentComp';
+// import ParentComp from './components/section3/ParentComp';
+import RefDemo1 from './components/section3/RefDemo1';
+import RefDemo2 from './components/section3/RefDemo2';
 
 function App() {
   return (
@@ -80,7 +82,10 @@ function App() {
      {/* <Fragment /> */}
      {/* <Table /> */}
 
-     <ParentComp />
+     {/* <ParentComp /> */}
+
+     <RefDemo1 />
+     <RefDemo2 />
     </div>
   );
 }
