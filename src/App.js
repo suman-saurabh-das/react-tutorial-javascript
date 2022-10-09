@@ -30,7 +30,9 @@ import './App.css';
 // import RefDemo2 from './components/section3/RefDemo2';
 // import FocusInput from './components/section3/FocusInput';
 // import ForwardRefInputParent from './components/section3/ForwardRefInputParent';
-import PortalDemo from './components/section4/PortalDemo';
+// import PortalDemo from './components/section4/PortalDemo';
+import Hero from './components/section4/Hero';
+import ErrorBoundary from './components/section4/ErrorBoundary';
 
 function App() {
   return (
@@ -38,7 +40,7 @@ function App() {
       {/* <Greet/> */}
       {/* <Welcome/> */}
       {/* <Hello /> */}
-      
+
       {/* Passing props to functional component */}
       {/* <GreetProps name={"Bruce"} heroName={"Batman"}>
         <p>I believe what doesn't kill you simply makes you, stranger.</p>
@@ -69,32 +71,42 @@ function App() {
 
       {/* <UserGreeting /> */}
 
-     {/* <NameList />  */}
+      {/* <NameList />  */}
 
-     {/* <Stylesheet primary={true} /> */}
-     {/* <Inline /> */}
-     {/* <h1 className='error'>Error Message</h1>
+      {/* <Stylesheet primary={true} /> */}
+      {/* <Inline /> */}
+      {/* <h1 className='error'>Error Message</h1>
      <h1 className={styles.success}>Yay ! Success</h1> */}
 
-     {/* <Form /> */}
+      {/* <Form /> */}
 
-     {/* <LifecycleA /> */}
+      {/* <LifecycleA /> */}
 
-     {/* <LifecycleC /> */}
+      {/* <LifecycleC /> */}
 
-     {/* <Fragment /> */}
-     {/* <Table /> */}
+      {/* <Fragment /> */}
+      {/* <Table /> */}
 
-     {/* <ParentComp /> */}
+      {/* <ParentComp /> */}
 
-     {/* <RefDemo1 /> */}
-     {/* <RefDemo2 /> */}
+      {/* <RefDemo1 /> */}
+      {/* <RefDemo2 /> */}
 
-     {/* <FocusInput /> */}
+      {/* <FocusInput /> */}
 
-     {/* <ForwardRefInputParent /> */}
+      {/* <ForwardRefInputParent /> */}
 
-     <PortalDemo />
+      {/* <PortalDemo /> */}
+
+      <ErrorBoundary>
+        <Hero heroName="Batman" />
+      </ErrorBoundary>
+      <ErrorBoundary>
+        <Hero heroName="Superman" />
+      </ErrorBoundary>
+      <ErrorBoundary>
+        <Hero heroName="Joker" />
+      </ErrorBoundary>
     </div>
   );
 }
