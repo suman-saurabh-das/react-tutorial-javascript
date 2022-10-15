@@ -33,8 +33,12 @@ import './App.css';
 // import PortalDemo from './components/section4/PortalDemo';
 // import Hero from './components/section4/Hero';
 // import ErrorBoundary from './components/section4/ErrorBoundary';
-import ClickCounter from './components/section4/ClickCounter';
-import HoverCounter from './components/section4/HoverCounter';
+// import ClickCounter from './components/section4/ClickCounter';
+// import HoverCounter from './components/section4/HoverCounter';
+import ClickCounter2 from './components/section4/ClickCounter2';
+import HoverCounter2 from './components/section4/HoverCounter2';
+// import User from './components/section4/User';
+import Counter from './components/section4/Counter';
 
 function App() {
   return (
@@ -110,8 +114,31 @@ function App() {
         <Hero heroName="Joker" />
       </ErrorBoundary> */}
 
-      <ClickCounter name="Das"/>
-      <HoverCounter />
+      {/* <ClickCounter name="Das"/>
+      <HoverCounter /> */}
+
+      {/* <ClickCounter2 />
+      <HoverCounter2 />
+      <User name={(isLoggedIn) => (isLoggedIn ? "Saurabh" : "Guest")}/> */}
+
+      {/* <Counter render={(count, incrementCount) =>
+        <ClickCounter2 count={count} incrementCount={incrementCount} />
+      } /> */}
+      {/* <Counter render={(count, incrementCount) =>
+        <HoverCounter2 count={count} incrementCount={incrementCount} />
+      } /> */}
+
+      {/* Passing props as children instead of render props */}
+      <Counter>
+        {(count, incrementCount) =>
+          <ClickCounter2 count={count} incrementCount={incrementCount} />
+        }
+      </Counter>
+      <Counter>
+        {(count, incrementCount) =>
+          <HoverCounter2 count={count} incrementCount={incrementCount} />
+        }
+      </Counter>
     </div>
   );
 }
