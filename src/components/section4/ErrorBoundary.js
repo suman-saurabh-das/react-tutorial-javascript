@@ -5,7 +5,7 @@ import React, { Component } from 'react'
     
     Method 1 - getDerivedStateFromError(error)
         This method takes in error and can be used to set the value of a state variable based on the error.
-        And based on this state valiable, we can conditionally render our UI.
+        And based on this state variable, we can conditionally render our UI.
 
         Placing of error boundary -
         NOTE - We should separately enclose the components using error boundary so that when there is an error with a single component only that component will render the error UI and rest of the components will render as it is.

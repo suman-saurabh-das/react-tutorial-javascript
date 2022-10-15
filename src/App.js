@@ -35,10 +35,12 @@ import './App.css';
 // import ErrorBoundary from './components/section4/ErrorBoundary';
 // import ClickCounter from './components/section4/ClickCounter';
 // import HoverCounter from './components/section4/HoverCounter';
-import ClickCounter2 from './components/section4/ClickCounter2';
-import HoverCounter2 from './components/section4/HoverCounter2';
+// import ClickCounter2 from './components/section4/ClickCounter2';
+// import HoverCounter2 from './components/section4/HoverCounter2';
 // import User from './components/section4/User';
-import Counter from './components/section4/Counter';
+// import Counter from './components/section4/Counter';
+import ComponentC from './components/section4/ComponentC';
+import {UserProvider} from './components/section4/userContext'
 
 function App() {
   return (
@@ -129,7 +131,7 @@ function App() {
       } /> */}
 
       {/* Passing props as children instead of render props */}
-      <Counter>
+      {/* <Counter>
         {(count, incrementCount) =>
           <ClickCounter2 count={count} incrementCount={incrementCount} />
         }
@@ -138,7 +140,11 @@ function App() {
         {(count, incrementCount) =>
           <HoverCounter2 count={count} incrementCount={incrementCount} />
         }
-      </Counter>
+      </Counter> */}
+
+      <UserProvider value="Saurabh">
+        <ComponentC />
+      </UserProvider>
     </div>
   );
 }
