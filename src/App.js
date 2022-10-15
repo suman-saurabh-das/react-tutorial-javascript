@@ -7,6 +7,7 @@ import './App.css';
 // import GreetProps from './components/section1/GreetProps';
 // import WelcomeProps from './components/section1/WelcomeProps'
 // import Message from './components/section1/Message';
+
 // import Counter from './components/section2/Counter';
 // import GreetPropsDestructuring from './components/section2/GreetPropsDestructuring';
 // import WelcomePropsDestructuring from './components/section2/WelcomePropsDestructuring';
@@ -20,6 +21,7 @@ import './App.css';
 // import Inline from './components/section2/Inline';
 // import './appStyles.css'
 // import styles from './appStyles.module.css'
+
 // import Form from './components/section3/Form';
 // import LifecycleA from './components/section3/LifecycleA';
 // import LifecycleC from './components/section3/LifecycleC';
@@ -30,6 +32,7 @@ import './App.css';
 // import RefDemo2 from './components/section3/RefDemo2';
 // import FocusInput from './components/section3/FocusInput';
 // import ForwardRefInputParent from './components/section3/ForwardRefInputParent';
+
 // import PortalDemo from './components/section4/PortalDemo';
 // import Hero from './components/section4/Hero';
 // import ErrorBoundary from './components/section4/ErrorBoundary';
@@ -39,8 +42,11 @@ import './App.css';
 // import HoverCounter2 from './components/section4/HoverCounter2';
 // import User from './components/section4/User';
 // import Counter from './components/section4/Counter';
-import ComponentC from './components/section4/ComponentC';
-import {UserProvider} from './components/section4/userContext'
+// import ComponentC from './components/section4/ComponentC';
+// import {UserProvider} from './components/section4/userContext'
+
+import PostList from './components/section5/PostList';
+
 
 function App() {
   return (
@@ -142,9 +148,11 @@ function App() {
         }
       </Counter> */}
 
-      <UserProvider value="Saurabh">
+      {/* <UserProvider value="Saurabh">
         <ComponentC />
-      </UserProvider>
+      </UserProvider> */}
+
+      <PostList />
     </div>
   );
 }
