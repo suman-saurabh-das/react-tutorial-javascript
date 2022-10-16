@@ -45,7 +45,8 @@ import './App.css';
 // import ComponentC from './components/section4/ComponentC';
 // import {UserProvider} from './components/section4/userContext'
 
-import PostList from './components/section5/PostList';
+// import PostList from './components/section5/PostList';
+import PostForm from './components/section5/PostForm';
 
 
 function App() {
@@ -152,7 +153,9 @@ function App() {
         <ComponentC />
       </UserProvider> */}
 
-      <PostList />
+      {/* <PostList /> */}
+
+      <PostForm />
     </div>
   );
 }
