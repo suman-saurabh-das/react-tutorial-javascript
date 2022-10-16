@@ -20,6 +20,13 @@ import React, { useState } from 'react'
     When we click on the button, the setCount method is called which will add 1 to the current count value
     On first click, the count is incremented to 1 from 0 and setCount() method will re-render the component.
     After the re-render, count will contain value 1 which gets displayed as part of the inner text of the browser.
+
+    Rules of Hooks
+
+        Only Call Hooks at the Top Level
+        (Don't call hooks inside loops, conditions or nested functions)
+        Only Call Hooks from React functions
+        (Call them from within React functional components and not just any regular JavaScript function)
 */
 
 function HookCounter() {
