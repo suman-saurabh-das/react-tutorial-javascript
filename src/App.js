@@ -46,7 +46,9 @@ import './App.css';
 // import {UserProvider} from './components/section4/userContext'
 
 // import PostList from './components/section5/PostList';
-import PostForm from './components/section5/PostForm';
+// import PostForm from './components/section5/PostForm';
+// import ClassCounter from './components/section5/ClassCounter';
+import HookCounter from './components/section5/HookCounter';
 
 
 function App() {
@@ -155,7 +157,10 @@ function App() {
 
       {/* <PostList /> */}
 
-      <PostForm />
+      {/* <PostForm /> */}
+
+      {/* <ClassCounter /> */}
+      <HookCounter />
     </div>
   );
 }
