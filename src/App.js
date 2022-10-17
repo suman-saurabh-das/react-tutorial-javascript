@@ -50,7 +50,8 @@ import './App.css';
 // import ClassCounter from './components/section5/ClassCounter';
 // import HookCounter from './components/section5/HookCounter';
 // import HookCounter2 from './components/section5/HookCounter2';
-import HookCounter3 from './components/section5/HookCounter3';
+// import HookCounter3 from './components/section5/HookCounter3';
+import HookCounter4 from './components/section5/HookCounter4';
 
 function App() {
   return (
@@ -165,7 +166,9 @@ function App() {
 
       {/* <HookCounter2 /> */}
 
-      <HookCounter3 />
+      {/* <HookCounter3 /> */}
+
+      <HookCounter4 />
     </div>
   );
 }
