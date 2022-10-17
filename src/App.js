@@ -51,7 +51,9 @@ import './App.css';
 // import HookCounter from './components/section5/HookCounter';
 // import HookCounter2 from './components/section5/HookCounter2';
 // import HookCounter3 from './components/section5/HookCounter3';
-import HookCounter4 from './components/section5/HookCounter4';
+// import HookCounter4 from './components/section5/HookCounter4';
+// import ClassCounter2 from './components/section5/ClassCounter2';
+import HookCounter5 from './components/section5/HookCounter5';
 
 function App() {
   return (
@@ -168,7 +170,11 @@ function App() {
 
       {/* <HookCounter3 /> */}
 
-      <HookCounter4 />
+      {/* <HookCounter4 /> */}
+
+      {/* <ClassCounter2 /> */}
+
+      <HookCounter5 />
     </div>
   );
 }
