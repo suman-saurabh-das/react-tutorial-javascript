@@ -49,8 +49,8 @@ import './App.css';
 // import PostForm from './components/section5/PostForm';
 // import ClassCounter from './components/section5/ClassCounter';
 // import HookCounter from './components/section5/HookCounter';
-import HookCounter2 from './components/section5/HookCounter2';
-
+// import HookCounter2 from './components/section5/HookCounter2';
+import HookCounter3 from './components/section5/HookCounter3';
 
 function App() {
   return (
@@ -163,7 +163,9 @@ function App() {
       {/* <ClassCounter /> */}
       {/* <HookCounter /> */}
 
-      <HookCounter2 />
+      {/* <HookCounter2 /> */}
+
+      <HookCounter3 />
     </div>
   );
 }
