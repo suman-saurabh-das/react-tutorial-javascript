@@ -56,7 +56,9 @@ import './App.css';
 // import HookCounter5 from './components/section5/HookCounter5';
 
 // import ClassCounter3 from './components/Section6/ClassCounter3';
-import HookCounter6 from './components/Section6/HookCounter6';
+// import HookCounter6 from './components/Section6/HookCounter6';
+// import ClassMouse from './components/Section6/ClassMouse';
+import HookMouse from './components/Section6/HookMouse';
 
 function App() {
   return (
@@ -180,7 +182,10 @@ function App() {
       {/* <HookCounter5 /> */}
 
       {/* <ClassCounter3 /> */}
-      <HookCounter6 />
+      {/* <HookCounter6 /> */}
+
+      {/* <ClassMouse /> */}
+      <HookMouse />
     </div>
   );
 }
