@@ -1,4 +1,5 @@
 import './App.css';
+import React from 'react';
 
 // import Greet from './components/section1/Greet';    // default export
 // import {Greet} from './components/section1/Greet';  // named export
@@ -62,7 +63,10 @@ import './App.css';
 // import MouseContainer from './components/Section6/MouseContainer';
 // import IntervalClassCounter from './components/Section6/IntervalClassCounter';
 // import IntervalHookCounter from './components/Section6/IntervalHookCounter';
-import DataFetching from './components/Section6/DataFetching';
+// import DataFetching from './components/Section6/DataFetching';
+import FunctionalComponentC from './components/Section6/FunctionalComponentC';
+export const UserContext = React.createContext();
+export const WorkContext = React.createContext();
 
 function App() {
   return (
@@ -196,7 +200,13 @@ function App() {
       {/* <IntervalClassCounter /> */}
       {/* <IntervalHookCounter /> */}
 
-      <DataFetching />
+      {/* <DataFetching /> */}
+
+      <UserContext.Provider value={"Saurabh"}>
+        <WorkContext.Provider value={"Engineer"}>
+          <FunctionalComponentC />
+        </WorkContext.Provider>
+      </UserContext.Provider>
     </div>
   );
 }
