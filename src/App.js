@@ -64,9 +64,11 @@ import React from 'react';
 // import IntervalClassCounter from './components/Section6/IntervalClassCounter';
 // import IntervalHookCounter from './components/Section6/IntervalHookCounter';
 // import DataFetching from './components/Section6/DataFetching';
-import FunctionalComponentC from './components/Section6/FunctionalComponentC';
-export const UserContext = React.createContext();
-export const WorkContext = React.createContext();
+// import FunctionalComponentC from './components/Section6/FunctionalComponentC';
+// export const UserContext = React.createContext();
+// export const WorkContext = React.createContext();
+
+import Counter1 from './components/Section7/Counter1';
 
 function App() {
   return (
@@ -202,11 +204,13 @@ function App() {
 
       {/* <DataFetching /> */}
 
-      <UserContext.Provider value={"Saurabh"}>
+      {/* <UserContext.Provider value={"Saurabh"}>
         <WorkContext.Provider value={"Engineer"}>
           <FunctionalComponentC />
         </WorkContext.Provider>
-      </UserContext.Provider>
+      </UserContext.Provider> */}
+
+      <Counter1 />
     </div>
   );
 }
